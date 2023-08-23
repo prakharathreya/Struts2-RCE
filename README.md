@@ -1,9 +1,9 @@
 # Struts2-RCE
-A Burp Extender for checking for struts 2 RCE vulnerabilities.
+A Burp Extender to check for struts 2 RCE vulnerabilities.
 
 # Description
 
-This burp extension helps identifying Struts2 remote code execution vulnerabilities in struts2 web application. This Burp extension detects following 18 RCEs and they are 
+This burp extension helps identify Struts2 remote code execution vulnerabilities in the struts2 web application. This Burp extension detects the following 18 RCEs: 
 
 * S2-001 
 * S2-007
@@ -29,11 +29,11 @@ This burp extension helps identifying Struts2 remote code execution vulnerabilit
 ```bash
 Burp Suite->Extender->Add->Select the Struts.jar file->Next.
 ```
-Once loaded without any error a new tab will popup within existing burp instance.
+Once loaded without any error a new tab will pop up within the existing burp instance.
 
 ## Usage
 
-A single HTTP request can be scanned just by Right clicking on the selected request and click on 'Check for Struts RCE'.
+A single HTTP request can be scanned just by Right-clicking on the selected request and clicking on 'Check for Struts RCE'.
 
 
 Scanning multiple requests or scanning a complete application requires a complete crawl of the application. Note, this extension will not attempt to find any new parameter rather it will target only the existing parameters.
